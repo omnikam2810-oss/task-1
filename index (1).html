@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Task-01 | Responsive Landing Page</title>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+
+   
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="font-sans scroll-smooth">
+  
+    <nav
+      id="navbar"
+      class="fixed top-0 w-full z-50 shadow transition-colors duration-500"
+    >
+      <div
+        class="max-w-7xl mx-auto flex flex-wrap justify-between items-center px-6 py-4"
+      >
+        <h1 class="text-2xl font-bold">Landing Page</h1>
+
+        <ul class="flex flex-wrap gap-4 font-medium">
+          <li><a href="#home" class="nav-link">Home</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#services" class="nav-link">Services</a></li>
+          <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
+          <li><a href="#team" class="nav-link">Team</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+
+
+    <section
+      id="home"
+      class="section bg-blue-600 text-white flex flex-col md:flex-row items-center justify-center"
+    >
+      <div class="text-center md:text-left md:w-1/2 p-4">
+        <h2 class="text-4xl font-bold mb-4">Welcome Home</h2>
+        <p class="mb-4">
+          Discover our amazing landing page experience. We provide the best
+          solutions for your business.
+        </p>
+        <button
+          class="bg-white text-blue-600 px-4 py-2 rounded font-semibold hover:bg-gray-200 transition"
+        >
+          Learn More
+        </button>
+      </div>
+      <div class="md:w-1/2 p-4">
+        <img
+          src="images/1.png"
+          alt="Home Image"
+          class="w-full h-80 md:h-96 object-cover rounded shadow-lg"
+        />
+      </div>
+    </section>
+
+    <section
+      id="about"
+      class="section bg-emerald-500 text-white flex flex-col md:flex-row items-center justify-center"
+    >
+      <div class="md:w-1/2 p-4">
+        <img
+          src="images/about_us.jpg"
+          alt="About Image"
+          class="w-full h-80 md:h-96 object-cover rounded shadow-lg"
+        />
+      </div>
+      <div class="text-center md:text-left md:w-1/2 p-4">
+        <h2 class="text-4xl font-bold mb-4">About Us</h2>
+        <p class="mb-4">
+          Learn more about our mission and vision. We aim to provide innovative
+          solutions for our clients.
+        </p>
+      </div>
+    </section>
+
+    <section
+      id="services"
+      class="section bg-yellow-400 text-black flex flex-col md:flex-row items-center justify-center"
+    >
+      <div class="text-center md:text-left md:w-1/2 p-4">
+        <h2 class="text-4xl font-bold mb-4">Services</h2>
+        <p class="mb-4">
+          Our services include web development, digital marketing, and software
+          solutions tailored to your needs.
+        </p>
+      </div>
+      <div class="md:w-1/2 p-4">
+        <img
+          src="images/customer-service-faqs-illustration.jpg"
+          alt="Services Image"
+          class="w-full h-80 md:h-96 object-cover rounded shadow-lg"
+        />
+      </div>
+    </section>
+
+    <section
+      id="portfolio"
+      class="section bg-purple-600 text-white flex flex-col md:flex-row items-center justify-center"
+    >
+      <div class="md:w-1/2 p-4">
+        <img
+          src="images/portfolio.png"
+          alt="Portfolio Image"
+          class="w-full h-80 md:h-96 object-cover rounded shadow-lg"
+        />
+      </div>
+      <div class="text-center md:text-left md:w-1/2 p-4">
+        <h2 class="text-4xl font-bold mb-4">Portfolio</h2>
+        <p class="mb-4">
+          Check out our latest projects and successful collaborations with our
+          clients worldwide.
+        </p>
+      </div>
+    </section>
+
+    <section
+      id="team"
+      class="section bg-pink-500 text-white flex flex-col md:flex-row items-center justify-center"
+    >
+      <div class="text-center md:text-left md:w-1/2 p-4">
+        <h2 class="text-4xl font-bold mb-4">Our Team</h2>
+        <p class="mb-4">
+          Meet our talented team of professionals who make everything possible.
+        </p>
+      </div>
+      <div class="md:w-1/2 p-4">
+        <img
+          src="images/team.png"
+          alt="Team Image"
+          class="w-full h-80 md:h-96 object-cover rounded shadow-lg"
+        />
+      </div>
+    </section>
+
+    <section
+      id="contact"
+      class="section bg-gray-800 text-white flex flex-col md:flex-row items-center justify-center"
+    >
+      <div class="md:w-1/2 p-4">
+        <img
+          src="images/contact_us.png"
+          alt="Contact Image"
+          class="w-full h-80 md:h-96 object-cover rounded shadow-lg"
+        />
+      </div>
+      <div class="text-center md:text-left md:w-1/2 p-4">
+        <h2 class="text-4xl font-bold mb-4">Contact Us</h2>
+        <p class="mb-4">
+          Reach out to us for any queries, support, or project collaboration.
+        </p>
+        <button
+          class="bg-white text-gray-800 px-4 py-2 rounded font-semibold hover:bg-gray-200 transition"
+        >
+          Get in Touch
+        </button>
+      </div>
+    </section>
+
+    
+    <script src="script.js"></script>
+  </body>
+</html>
